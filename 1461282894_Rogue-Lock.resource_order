@@ -1,0 +1,10 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"scr_create_macros","order":1,"path":"scripts/scr_create_macros/scr_create_macros.yy",},
+    {"name":"spr_menu_bg","order":2,"path":"sprites/spr_menu_bg/spr_menu_bg.yy",},
+    {"name":"rm_title_screen","order":1,"path":"rooms/rm_title_screen/rm_title_screen.yy",},
+    {"name":"obj_title_menu","order":1,"path":"objects/obj_title_menu/obj_title_menu.yy",},
+    {"name":"spr_title_bg","order":1,"path":"sprites/spr_title_bg/spr_title_bg.yy",},
+  ],
+}

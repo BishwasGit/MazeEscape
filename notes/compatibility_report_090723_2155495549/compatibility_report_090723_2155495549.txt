@@ -1,0 +1,620 @@
+Converting GML script: ${project_dir}\scripts\scr_dice_test\scr_dice_test.gml
+Converted description /// @description scr_dice_test(Base_chance, Modifier) /// @param Base_chance
+/// @param  Modifier
+
+Converting GML script: ${project_dir}\scripts\scr_mysheet_update\scr_mysheet_update.gml
+Converted description /// @description scr_mysheet_update(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\scr_attack_melee\scr_attack_melee.gml
+Converted description /// @description scr_attack_melee(attacker_id, defender_id, damage, type)/// @param attacker_id
+/// @param  defender_id
+/// @param  damage
+/// @param  type
+Converted string - line 12: '' -> ""
+Converted string - line 12: ' attacks ' -> " attacks "
+Converted string - line 23: 'Miss!' -> "Miss!"
+Converted string - line 23: 'Miss!' -> "Miss!"
+
+Converting GML script: ${project_dir}\scripts\scr_apply_damage\scr_apply_damage.gml
+Converted description /// @description scr_apply_damage(id, damage, type)/// @param id
+/// @param  damage
+/// @param  type
+Converted string - line 34: '/' -> "/"
+Converted string - line 34: 'Life decreased.' -> "Life decreased."
+Converted string - line 38: '/' -> "/"
+Converted string - line 38: 'Armor saves!' -> "Armor saves!"
+
+Converting GML script: ${project_dir}\scripts\scr_player_set_damage_and_armor\scr_player_set_damage_and_armor.gml
+Converted string - line 16: 'weapon' -> "weapon"
+
+Converting GML script: ${project_dir}\scripts\scr_display_fullscreen\scr_display_fullscreen.gml
+Converted builtin - line 18: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 37: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_wview[0] = nmb_tile_w*Tile_Size -> __view_set( e__VW.WView, 0, nmb_tile_w*Tile_Size )
+Converted builtin - line 33: view_wview[0] = base_w -> __view_set( e__VW.WView, 0, base_w )
+Converted builtin - line 18: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 37: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview[0] = nmb_tile_h*Tile_Size -> __view_set( e__VW.HView, 0, nmb_tile_h*Tile_Size )
+Converted builtin - line 34: view_hview[0] = base_h -> __view_set( e__VW.HView, 0, base_h )
+Converted builtin - line 20: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 14: view_wport[0] = nmb_tile_w*Tile_Size -> __view_set( e__VW.WPort, 0, nmb_tile_w*Tile_Size )
+Converted builtin - line 35: view_wport[0] = base_w -> __view_set( e__VW.WPort, 0, base_w )
+Converted builtin - line 21: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 15: view_hport[0] = nmb_tile_h*Tile_Size -> __view_set( e__VW.HPort, 0, nmb_tile_h*Tile_Size )
+Converted builtin - line 36: view_hport[0] = base_h -> __view_set( e__VW.HPort, 0, base_h )
+Converted description /// @description scr_display_fullscreen(true or false)/// @param true or false
+
+Converting GML script: ${project_dir}\scripts\scr_text_value\scr_text_value.gml
+Converted description /// @description scr_text_value(x, y, color, text, console_text)/// @param x
+/// @param  y
+/// @param  color
+/// @param  text
+/// @param  console_text
+Converted string - line 12: '' -> ""
+Converted string - line 21: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\scr_moving_effect\scr_moving_effect.gml
+Converted description /// @description scr_moving_effect(sprite,image_index,fx,fy,tx,ty,sound1,rotate,script,power)/// @param sprite
+/// @param image_index
+/// @param fx
+/// @param fy
+/// @param tx
+/// @param ty
+/// @param sound1
+/// @param rotate
+/// @param script
+/// @param power
+
+Converting GML script: ${project_dir}\scripts\scr_moving_effect_script\scr_moving_effect_script.gml
+Converted description /// @description scr_moving_effect_script(Destroy_Scipt, P_Power)/// @param Destroy_Scipt
+/// @param  P_Power
+Converted string - line 8: 'arrow_normal' -> "arrow_normal"
+Converted string - line 12: 'rock_normal' -> "rock_normal"
+
+Converting GML script: ${project_dir}\scripts\scr_cell_available\scr_cell_available.gml
+Converted description /// @description scr_cell_available(xx,yy, radius, dynamic)/// @param xx
+/// @param yy
+/// @param  radius
+/// @param  dynamic
+
+Converting GML script: ${project_dir}\scripts\scr_cell_is_around_cell\scr_cell_is_around_cell.gml
+Converted description /// @description scr_cell_is_around_cell(x1, y1, x2, y2)/// @param x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+
+Converting GML script: ${project_dir}\scripts\scr_cells_share_room\scr_cells_share_room.gml
+Converted description /// @description scr_cells_share_room(xx1, yy1, xx2, yy2)/// @param xx1
+/// @param  yy1
+/// @param  xx2
+/// @param  yy2
+
+Converting GML script: ${project_dir}\scripts\scr_FOV_grid\scr_FOV_grid.gml
+Converted description /// @description scr_FOV_grid(radius, x1, y1)/// @param radius
+/// @param  x1
+/// @param  y1
+
+Converting GML script: ${project_dir}\scripts\scr_is_on_view\scr_is_on_view.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description scr_is_on_view(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\scr_LOS\scr_LOS.gml
+Converted description /// @description scr_LOS(radius, x1, y1, x2, y2)/// @param radius
+/// @param  x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+
+Converting GML script: ${project_dir}\scripts\scr_target_in_earing_range\scr_target_in_earing_range.gml
+Converted description /// @description scr_target_in_earing_range(entity, target)/// @param entity
+/// @param  target
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_add_item\scr_inventory_add_item.gml
+Converted description /// @description scr_inventory_add_item(item_id, quantity)/// @param item_id
+/// @param  quantity
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_add_item_pos\scr_inventory_add_item_pos.gml
+Converted description /// @description scr_inventory_add_item_pos(item_id, quantity, Cell index)/// @param item_id
+/// @param  quantity
+/// @param  Cell index
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_add_item_pos_remains\scr_inventory_add_item_pos_remains.gml
+Converted description /// @description scr_inventory_add_item_pos_remains(item_id, quantity, Cell index)/// @param item_id
+/// @param  quantity
+/// @param  Cell index
+Converted string - line 51: 'wait' -> "wait"
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_drop_item\scr_inventory_drop_item.gml
+Converted description /// @description scr_inventory_drop_item(item_id, quantity, x, y)/// @param item_id
+/// @param  quantity
+/// @param  x
+/// @param  y
+Converted string - line 24: 'Gold' -> "Gold"
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_item_restriction\scr_inventory_item_restriction.gml
+Converted description /// @description scr_inventory_item_restriction(item id, Cell_Index)/// @param item id
+/// @param  Cell_Index
+Converted string - line 18: 'none' -> "none"
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_reset_selection\scr_inventory_reset_selection.gml
+Converted description /// @description scr_inventory_reset_selection(Item_Selected, State)/// @param Item_Selected
+/// @param  State
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_resize\scr_inventory_resize.gml
+Converted description /// @description scr_inventory_resize()
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_set_mouse_position\scr_inventory_set_mouse_position.gml
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_sort\scr_inventory_sort.gml
+Converted description /// @description scr_inventory_sort()
+Converted string - line 11: 'wait' -> "wait"
+
+Converting GML script: ${project_dir}\scripts\scr_item_asign_type\scr_item_asign_type.gml
+Converted description /// @description scr_item_asign_type(string, type) //'string', 'real', 'asset'/// @param string
+/// @param  type
+Converted string - line 7: 'string' -> "string"
+Converted string - line 11: 'real' -> "real"
+Converted string - line 16: 'asset' -> "asset"
+
+Converting GML script: ${project_dir}\scripts\scr_sound_item_take\scr_sound_item_take.gml
+Converted description /// @description scr_sound_item_take(item_value)/// @param item_value
+Converted string - line 9: 'gold' -> "gold"
+Converted string - line 13: 'potion' -> "potion"
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_use_item\scr_inventory_use_item.gml
+Converted description /// @description scr_inventory_use_item(id, item id)/// @param id
+/// @param  item id
+Converted string - line 8: 'potion' -> "potion"
+
+Converting GML script: ${project_dir}\scripts\scr_item_use_potion\scr_item_use_potion.gml
+Converted description /// @description scr_item_use_potion(id, item id)/// @param id
+/// @param  item id
+Converted string - line 8: 'healing' -> "healing"
+
+Converting GML script: ${project_dir}\scripts\scr_light_update\scr_light_update.gml
+Converted builtin - line 116: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 116: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 118: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 118: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 116: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 118: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted string - line 114: 'open' -> "open"
+
+Converting GML script: ${project_dir}\scripts\scr_pre_surface1\scr_pre_surface1.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\scr_draw_surface\scr_draw_surface.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\scr_add_door\scr_add_door.gml
+Converted description /// @description scr_add_door()
+
+Converting GML script: ${project_dir}\scripts\scr_area_random_cell\scr_area_random_cell.gml
+Converted description /// @description scr_area_random_cell(Area, array, value)/// @param Area
+/// @param  array
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\scr_dig_corridor_straight\scr_dig_corridor_straight.gml
+Converted description /// @description scr_dig_corridor_straight(from_xx, from_yy, target_xx, target_yy, diag, grid_block, value_to_set)/// @param from_xx
+/// @param  from_yy
+/// @param  target_xx
+/// @param  target_yy
+/// @param  diag
+/// @param  grid_block
+/// @param  value_to_set
+Converted string - line 179: 'No path found!' -> "No path found!"
+
+Converting GML script: ${project_dir}\scripts\scr_scatter_instance\scr_scatter_instance.gml
+Converted description /// @description scr_scatter_instance(type, number, free radius around)/// @param type
+/// @param  number
+/// @param  free radius around
+
+Converting GML script: ${project_dir}\scripts\scr_plane_enter_exit\scr_plane_enter_exit.gml
+Converted description /// @description scr_plane_enter_exit()
+
+Converting GML script: ${project_dir}\scripts\scr_room_list\scr_room_list.gml
+Converted description /// @description scr_room_list(0 to initialize, 1 to get a number, 3 to destroy)/// @param 0 to initialize
+/// @param  1 to get a number
+/// @param  3 to destroy
+
+Converting GML script: ${project_dir}\scripts\scr_change_grid_to_tile\scr_change_grid_to_tile.gml
+Converted string - line 36: 'hiding' -> "hiding"
+Converted string - line 40: 'close' -> "close"
+
+Converting GML script: ${project_dir}\scripts\scr_change_grid_to_tile_around_cell\scr_change_grid_to_tile_around_cell.gml
+Converted description /// @description scr_change_grid_to_tile_around_cell(xx,yy)/// @param xx
+/// @param yy
+
+Converting GML script: ${project_dir}\scripts\scr_cell_bit_value\scr_cell_bit_value.gml
+Converted description /// @description scr_cell_bit_value(xx,yy)/// @param xx
+/// @param yy
+
+Converting GML script: ${project_dir}\scripts\scr_player_action_reveal_hiden_object\scr_player_action_reveal_hiden_object.gml
+Converted string - line 2: 'F' -> "F"
+Converted string - line 32: 'hide' -> "hide"
+Converted string - line 47: 'Searching!' -> "Searching!"
+Converted string - line 47: 'Hidden things revealed!' -> "Hidden things revealed!"
+
+Converting GML script: ${project_dir}\scripts\scr_player_action_movement\scr_player_action_movement.gml
+Converted string - line 7: 'W' -> "W"
+Converted string - line 11: 'S' -> "S"
+Converted string - line 15: 'A' -> "A"
+Converted string - line 20: 'D' -> "D"
+Converted string - line 43: 'locked door' -> "locked door"
+
+Converting GML script: ${project_dir}\scripts\scr_random_item_id\scr_random_item_id.gml
+Converted description /// @description scr_random_item_id()
+Converted string - line 5: 'gold' -> "gold"
+Converted string - line 9: 'gold' -> "gold"
+Converted string - line 13: 'gear' -> "gear"
+Converted string - line 17: 'tool' -> "tool"
+Converted string - line 20: 'gold' -> "gold"
+Converted string - line 22: 'Gold' -> "Gold"
+Converted string - line 24: 'gear' -> "gear"
+Converted string - line 28: 'weapon' -> "weapon"
+Converted string - line 29: 'shield' -> "shield"
+Converted string - line 30: 'helm' -> "helm"
+Converted string - line 31: 'cape' -> "cape"
+Converted string - line 32: 'armor' -> "armor"
+Converted string - line 33: 'glove' -> "glove"
+Converted string - line 34: 'boot' -> "boot"
+Converted string - line 35: 'belt' -> "belt"
+Converted string - line 36: 'helm' -> "helm"
+Converted string - line 37: 'missile' -> "missile"
+Converted string - line 59: 'tool' -> "tool"
+Converted string - line 61: 'potion' -> "potion"
+
+Converting GML script: ${project_dir}\scripts\scr_loot_find_item_name\scr_loot_find_item_name.gml
+Converted description /// @description scr_loot_find_item_name(name(string))/// @param name(string
+
+Converting GML script: ${project_dir}\scripts\scr_loot_find_item_type\scr_loot_find_item_type.gml
+Converted description /// @description scr_loot_find_item_type(I_TYPE(string))/// @param I_TYPE(string
+
+Converting GML script: ${project_dir}\scripts\scr_random_item_id_quantity\scr_random_item_id_quantity.gml
+Converted description /// @description scr_random_item_id_quantity(item id)/// @param item id
+Converted string - line 7: 'gold' -> "gold"
+Converted string - line 12: 'missile' -> "missile"
+Converted string - line 16: 'potion' -> "potion"
+
+Converting GML script: ${project_dir}\scripts\scr_set_depth\scr_set_depth.gml
+Converted description /// @description scr_set_depth(id, depth)/// @param id
+/// @param  depth
+
+Converting GML script: ${project_dir}\scripts\scr_effect_give_life\scr_effect_give_life.gml
+Converted description /// @description scr_effect_give_life(id, amount)/// @param id
+/// @param  amount
+
+Converting GML script: ${project_dir}\scripts\scr_monster_action_sleep\scr_monster_action_sleep.gml
+Converted string - line 5: 'zzz' -> "zzz"
+Converted string - line 5: '' -> ""
+Converted string - line 14: 'seek' -> "seek"
+Converted string - line 20: 'zzz' -> "zzz"
+Converted string - line 20: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\scr_monster_action_seek\scr_monster_action_seek.gml
+Converted string - line 6: 'attack' -> "attack"
+Converted string - line 10: 'chase' -> "chase"
+Converted string - line 14: 'sleep' -> "sleep"
+
+Converting GML script: ${project_dir}\scripts\scr_find_grid_path\scr_find_grid_path.gml
+Converted description /// @description scr_find_grid_path(id, target_x, target_y, diag, cell_size)/// @param id
+/// @param  target_x
+/// @param  target_y
+/// @param  diag
+/// @param  cell_size
+
+Converting GML script: ${project_dir}\scripts\scr_monster_action_chase\scr_monster_action_chase.gml
+Converted string - line 5: 'seek' -> "seek"
+
+Converting GML script: ${project_dir}\scripts\scr_monster_action_attack\scr_monster_action_attack.gml
+Converted string - line 6: 'seek' -> "seek"
+
+!!! Font fnt_txt_value uses a font (BM germar) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_txt_value\fnt_txt_value.gms1.png
+!!! Font fnt_inv_small uses a font (BM germar) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_inv_small\fnt_inv_small.gms1.png
+Converting GML script: ${project_dir}\objects\obj_dynamic\Step_0.gml
+Converted string - line 17: 'You died!#Game end!' -> "You died!#Game end!"
+
+Converting GML script: ${project_dir}\objects\obj_static\Create_0.gml
+Converted string - line 4: '' -> ""
+Converted string - line 7: '' -> ""
+Converted string - line 8: '' -> ""
+
+Converting GML script: ${project_dir}\objects\obj_item_loader\Create_0.gml
+Converted string - line 15: 'item_database.csv' -> "item_database.csv"
+Converted string - line 24: '\' -> "\\"
+Converted string - line 40: ';' -> ";"
+Converted string - line 40: '' -> ""
+Converted string - line 42: 'File wrongly formated!' -> "File wrongly formated!"
+Converted string - line 47: '' -> ""
+Converted string - line 49: '' -> ""
+Converted string - line 56: ';' -> ";"
+Converted string - line 56: '' -> ""
+Converted string - line 72: '' -> ""
+Converted string - line 74: '' -> ""
+Converted string - line 77: ';' -> ";"
+Converted string - line 89: ';' -> ";"
+Converted string - line 89: '' -> ""
+
+Converting GML script: ${project_dir}\objects\obj_inventory\Create_0.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted string - line 35: 'wait' -> "wait"
+Converted string - line 52: 'none' -> "none"
+Converted string - line 59: 'none' -> "none"
+Converted string - line 66: 'helm' -> "helm"
+Converted string - line 73: 'glove' -> "glove"
+Converted string - line 80: 'armor' -> "armor"
+Converted string - line 87: 'cape' -> "cape"
+Converted string - line 94: 'belt' -> "belt"
+Converted string - line 101: 'boot' -> "boot"
+Converted string - line 108: 'ring' -> "ring"
+Converted string - line 115: 'ring' -> "ring"
+Converted string - line 148: 'none' -> "none"
+
+Converting GML script: ${project_dir}\objects\obj_inventory\Step_0.gml
+Converted string - line 2: 'R' -> "R"
+Converted string - line 13: 'wait' -> "wait"
+Converted string - line 32: 'wait' -> "wait"
+Converted string - line 48: 'selected' -> "selected"
+Converted string - line 64: 'selected' -> "selected"
+Converted string - line 75: 'wait' -> "wait"
+Converted string - line 101: 'drag' -> "drag"
+Converted string - line 110: 'wait' -> "wait"
+Converted string - line 128: 'potion' -> "potion"
+Converted string - line 144: 'wait' -> "wait"
+Converted string - line 153: 'wait' -> "wait"
+Converted string - line 162: 'drag' -> "drag"
+Converted string - line 171: 'wait' -> "wait"
+Converted string - line 181: 'selected' -> "selected"
+Converted string - line 226: 'wait' -> "wait"
+Converted string - line 236: 'T' -> "T"
+Converted string - line 243: 'wait' -> "wait"
+Converted string - line 243: 'selected' -> "selected"
+Converted string - line 255: 'wait' -> "wait"
+
+Converting GML script: ${project_dir}\objects\obj_inventory\Other_10.gml
+Converted string - line 44: 'selected' -> "selected"
+Converted string - line 60: 'selected' -> "selected"
+Converted string - line 60: 'drag' -> "drag"
+Converted string - line 88: 'Category : ' -> "Category : "
+Converted string - line 89: 'Restriction : ' -> "Restriction : "
+Converted string - line 90: 'Value : ' -> "Value : "
+Converted string - line 91: 'Enchantment : ' -> "Enchantment : "
+Converted string - line 95: 'weapon' -> "weapon"
+Converted string - line 97: 'Damage : ' -> "Damage : "
+Converted string - line 97: '/' -> "/"
+Converted string - line 99: 'helm' -> "helm"
+Converted string - line 99: 'armor' -> "armor"
+Converted string - line 99: 'glove' -> "glove"
+Converted string - line 99: 'belt' -> "belt"
+Converted string - line 99: 'cape' -> "cape"
+Converted string - line 99: 'boot' -> "boot"
+Converted string - line 101: 'Protection : ' -> "Protection : "
+Converted string - line 105: 'Power : ' -> "Power : "
+Converted string - line 113: ' This line is added just to show how much space you have to enter a better description. 12345678910 11 12 13 14 15 16 17...' -> " This line is added just to show how much space you have to enter a better description. 12345678910 11 12 13 14 15 16 17..."
+Converted string - line 125: ': ' -> ": "
+
+Converting GML script: ${project_dir}\objects\obj_inventory\Draw_0.gml
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 14: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted string - line 27: 'drag' -> "drag"
+
+Converting GML script: ${project_dir}\objects\obj_item\Create_0.gml
+Converted string - line 4: '' -> ""
+Converted string - line 7: '' -> ""
+Converted string - line 8: '' -> ""
+
+Converting GML script: ${project_dir}\objects\obj_creator\Create_0.gml
+Converted string - line 5: 'SEED:' -> "SEED:"
+Converted string - line 235: 'open' -> "open"
+
+Converting GML script: ${project_dir}\objects\obj_turn\Create_0.gml
+Converted string - line 7: 'give_action_point' -> "give_action_point"
+
+Converting GML script: ${project_dir}\objects\obj_turn\Alarm_0.gml
+Converted string - line 1: 'fill_list' -> "fill_list"
+
+Converting GML script: ${project_dir}\objects\obj_turn\Step_0.gml
+Converted string - line 1: 'give_action_point' -> "give_action_point"
+Converted string - line 12: 'delay' -> "delay"
+Converted string - line 15: 'fill_list' -> "fill_list"
+Converted string - line 28: 'pick_selected' -> "pick_selected"
+Converted string - line 31: 'pick_selected' -> "pick_selected"
+Converted string - line 35: 'give_action_point' -> "give_action_point"
+Converted string - line 46: 'wait_for_selected' -> "wait_for_selected"
+Converted string - line 51: 'wait_for_selected' -> "wait_for_selected"
+Converted string - line 57: 'pick_selected' -> "pick_selected"
+Converted string - line 62: 'pick_selected' -> "pick_selected"
+
+Converting GML script: ${project_dir}\objects\obj_door\Create_0.gml
+Converted string - line 4: 'A door.' -> "A door."
+Converted string - line 7: 'close' -> "close"
+Converted string - line 8: 'door' -> "door"
+
+Converting GML script: ${project_dir}\objects\obj_door\Step_0.gml
+Converted string - line 3: 'hiding' -> "hiding"
+Converted string - line 7: 'hide' -> "hide"
+Converted string - line 10: 'hide' -> "hide"
+Converted string - line 14: 'close' -> "close"
+Converted string - line 23: 'close' -> "close"
+Converted string - line 29: 'opening' -> "opening"
+Converted string - line 33: 'opening' -> "opening"
+Converted string - line 44: 'open' -> "open"
+Converted string - line 47: 'open' -> "open"
+Converted string - line 56: 'close' -> "close"
+
+Converting GML script: ${project_dir}\objects\obj_door\Draw_0.gml
+Converted string - line 3: 'locked door' -> "locked door"
+
+Converting GML script: ${project_dir}\objects\obj_display\Create_0.gml
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_display\Step_2.gml
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview[0] = obj_camera.x-252 -> __view_set( e__VW.XView, 0, obj_camera.x-252 )
+Converted builtin - line 13: view_xview[0] = obj_camera.x-gap_width-252 -> __view_set( e__VW.XView, 0, obj_camera.x-gap_width-252 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 27: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_yview[0] = obj_camera.y-252 -> __view_set( e__VW.YView, 0, obj_camera.y-252 )
+Converted builtin - line 22: view_yview[0] = obj_camera.y-gap_height-252 -> __view_set( e__VW.YView, 0, obj_camera.y-gap_height-252 )
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 26: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 27: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 26: view_xview[0] = (clamp(__view_get( e__VW.XView, 0 ), 0,room_width-__view_get( e__VW.WView, 0 ))) div Tile_Size * Tile_Size -> __view_set( e__VW.XView, 0, (clamp(__view_get( e__VW.XView, 0 ), 0,room_width-__view_get( e__VW.WView, 0 ))) div Tile_Size * Tile_Size )
+Converted builtin - line 27: view_yview[0] = (clamp(__view_get( e__VW.YView, 0 ), 0,room_height-__view_get( e__VW.HView, 0 )))div Tile_Size * Tile_Size -> __view_set( e__VW.YView, 0, (clamp(__view_get( e__VW.YView, 0 ), 0,room_height-__view_get( e__VW.HView, 0 )))div Tile_Size * Tile_Size )
+
+Converting GML script: ${project_dir}\objects\obj_display\Step_0.gml
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_display\Other_10.gml
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 9: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_display\Draw_64.gml
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
+Converted string - line 7: 'Name' -> "Name"
+Converted string - line 8: 'Class' -> "Class"
+Converted string - line 9: 'Strength' -> "Strength"
+Converted string - line 10: 'Agility' -> "Agility"
+Converted string - line 11: 'Magic' -> "Magic"
+Converted string - line 12: 'Life' -> "Life"
+Converted string - line 13: 'Consciousness' -> "Consciousness"
+Converted string - line 14: 'Protection' -> "Protection"
+Converted string - line 15: 'Action point' -> "Action point"
+Converted string - line 16: 'Movement' -> "Movement"
+Converted string - line 17: 'Field of view' -> "Field of view"
+Converted string - line 21: 'Wilmund' -> "Wilmund"
+Converted string - line 22: 'Warrior' -> "Warrior"
+Converted string - line 35: '' -> ""
+Converted string - line 36: '' -> ""
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted string - line 28: 'rock_normal' -> "rock_normal"
+Converted string - line 32: 'arrow_normal' -> "arrow_normal"
+
+Converting GML script: ${project_dir}\objects\obj_light\Create_0.gml
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_chest\Create_0.gml
+Converted string - line 3: 'A wooden chest.' -> "A wooden chest."
+Converted string - line 6: 'close' -> "close"
+Converted string - line 7: 'Door' -> "Door"
+
+Converting GML script: ${project_dir}\objects\obj_chest\Step_0.gml
+Converted string - line 1: 'close' -> "close"
+Converted string - line 3: 'open' -> "open"
+
+Converting GML script: ${project_dir}\objects\obj_monster_rat\Create_0.gml
+Converted string - line 7: 'sleep' -> "sleep"
+Converted string - line 10: 'Name' -> "Name"
+Converted string - line 11: 'Class' -> "Class"
+Converted string - line 12: 'Strength' -> "Strength"
+Converted string - line 13: 'Agility' -> "Agility"
+Converted string - line 14: 'Magic' -> "Magic"
+Converted string - line 15: 'Life' -> "Life"
+Converted string - line 16: 'Consciousness' -> "Consciousness"
+Converted string - line 17: 'Protection' -> "Protection"
+Converted string - line 18: 'Action point' -> "Action point"
+Converted string - line 19: 'Movement' -> "Movement"
+Converted string - line 20: 'Field of view' -> "Field of view"
+Converted string - line 24: 'Grey Rat' -> "Grey Rat"
+Converted string - line 25: 'Monster' -> "Monster"
+Converted string - line 38: '' -> ""
+Converted string - line 39: '' -> ""
+
+Converting GML script: ${project_dir}\objects\obj_monster_rat\Step_0.gml
+Converted string - line 7: 'sleep' -> "sleep"
+Converted string - line 8: 'seek' -> "seek"
+Converted string - line 9: 'chase' -> "chase"
+Converted string - line 10: 'attack' -> "attack"
+
+Converting GML script: ${project_dir}\objects\obj_lamp\Create_0.gml
+Converted string - line 4: 'A lamp' -> "A lamp"
+Converted string - line 7: 'close' -> "close"
+Converted string - line 8: 'light source' -> "light source"
+
+Converting GML script: ${project_dir}\objects\obj_lamp\Step_0.gml
+Converted string - line 10: 'close' -> "close"
+Converted string - line 12: 'open' -> "open"
+Converted string - line 19: 'open' -> "open"
+Converted string - line 21: 'close' -> "close"
+Converted string - line 30: 'close' -> "close"
+Converted string - line 36: 'open' -> "open"
+
+Converting GML script: ${project_dir}\objects\obj_text_value\Create_0.gml
+Converted string - line 1: '' -> ""
+
+Converting GML script: ${project_dir}\objects\obj_map\Step_2.gml
+Converted string - line 1: 'M' -> "M"
+
+Converting GML script: ${project_dir}\objects\obj_map\Draw_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Missing audiogroup for sound: 'snd_chest' - setting to default audio group
+Missing audiogroup for sound: 'snd_door' - setting to default audio group
+Missing audiogroup for sound: 'snd_set_fire' - setting to default audio group
+Missing audiogroup for sound: 'snd_gold' - setting to default audio group
+Missing audiogroup for sound: 'snd_take_item' - setting to default audio group
+Missing audiogroup for sound: 'snd_drop_item' - setting to default audio group
+Missing audiogroup for sound: 'snd_sparkle' - setting to default audio group
+Missing audiogroup for sound: 'snd_bubble' - setting to default audio group
+Added compatibility script 'background/background_get_height.gml'
+Added compatibility script 'background/background_get_width.gml'
+Added compatibility script 'background/draw_background.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'tile/tile_add.gml'
+Added compatibility script 'tile/tile_layer_delete_at.gml'
+Added compatibility script 'tile/tile_layer_find.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

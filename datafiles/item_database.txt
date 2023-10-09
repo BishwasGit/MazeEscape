@@ -1,0 +1,26 @@
+Item;Sprite;image_index;Type;Max_stack;Restriction;Price;Val_1;Val_2;Enchantment;category;loot_level;Description
+string;asset;real;string;real;string;real;real;real;string;string;real;string
+Dagger;spr_item_weapon_dagger;0;weapon;1;none;10;1;1;none;blade;1;A small weapon with less damage.
+Sword;spr_item_weapon_sword;0;weapon;1;none;10;2;2;none;blade;1;A hand weapon with good damage.
+Axe;spr_item_weapon_axe;0;weapon;1;none;10;2;2;none;axe;1;A heavy weapon with powerfull damage.
+Morningstar;spr_weapon_morningstar;0;weapon;1;none;10;1;1;none;blunt;1;Spikey mace.
+Battle axe;spr_weapon_battleaxe;0;weapon;1;strong;10;3;3;none;axe;1;Powerfull weapon.
+Shield;spr_item_shield;0;shield;1;none;10;1;1;none;shield;1;The description of the shield.
+Helm;spr_item_helm;0;helm;1;none;10;1;1;none;helm;1;The description of the helm.
+Cape;spr_item_cape;0;cape;1;none;10;1;1;none;cape;1;The description of the cape.
+Armor;spr_item_armor;0;armor;1;none;10;1;1;none;armor;1;The description of the armor
+Gloves;spr_item_glove;0;glove;1;none;10;1;1;none;glove;1;The description of the gloves.
+Boots;spr_item_boot;0;boot;1;none;10;1;1;none;boot;1;The description of the boots.
+Belt;spr_item_belt;0;belt;1;none;10;1;1;none;belt;1;The description of the belt.
+Cap;spr_item_hat;0;helm;1;none;10;1;1;none;hat;1;The description of the cap.
+Flask of healing;spr_item_potion_small;0;potion;8;none;10;1;1;none;healing;1;Drink it.
+Flask of antidote;spr_item_potion_small;1;potion;8;none;10;1;1;none;antidote;1;Drink it.
+Bottle of healing;spr_item_potion_medium;0;potion;4;none;10;2;2;none;healing;6;Drink it.
+Bottle of antidote;spr_item_potion_medium;1;potion;4;none;10;2;2;none;antidote;6;Drink it.
+Jar of healing;spr_item_potion_big;0;potion;1;none;10;5;5;none;healing;11;Drink it.
+Jar of antidote;spr_item_potion_big;1;potion;1;none;10;5;5;none;antidote;11;Drink it.
+Gold;spr_gold;0;gold;100;none;1;1;1;none;gold;1;Money money money!
+Rock;spr_item_rock;0;missile;8;none;1;1;1;none;rock;1;A simple rock.
+Arrow;spr_item_arrow;0;missile;16;none;1;1;1;none;arrow;1;Arrow. Use it with bow.
+Ring;spr_item_ring;0;ring;1;none;100;1;1;none;ring;1;Not the One ring.
+Scroll;spr_item_scroll;0;scroll;16;none;25;1;1;none;scroll;1;Piece of paper.

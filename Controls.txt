@@ -1,0 +1,9 @@
+escape - game end
+p - restart
+wasd - move
+f - search
+r - inventory
+F1 - Toggle Fullscreen
+t - sort inventory
+m - show/hide map
+esc - quit
